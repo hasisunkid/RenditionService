@@ -4,6 +4,8 @@
 *.pyc
 *.pyo
 *.log
+*.log.*
+*~
 env/
 env*
 dist/
@@ -22,3 +24,9 @@ htmlcov/
 .coverage.*
 *,cover
 
+# Flycheck
+flycheck_*.el
+# flymake-mode
+*_flymake.*
+*~
+\#*\#
